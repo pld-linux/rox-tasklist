@@ -15,7 +15,7 @@ BuildRequires:	gtk+-devel
 BuildRequires:	XFree86-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define   _appsdir  %{_libdir}/ROX-apps
+%define		_appsdir	%{_libdir}/ROX-apps
 
 %description
 This is a tasklist, much like the one that GNOME has.
