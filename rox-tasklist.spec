@@ -9,7 +9,7 @@ License:	GPL
 Group:		X11/Applications
 Source0:	http://metabocks.port5.com/rox/%{name}.tar.gz
 # Source0-md5:	d14e853551be5ab45e7e9b3ae0b80492
-URL:		http://www.metabocks.com/rox
+URL:		http://www.metabocks.com/rox/
 BuildRequires:	gdk-pixbuf-devel
 BuildRequires:	gtk+-devel
 BuildRequires:	XFree86-devel
