@@ -1,11 +1,10 @@
-%define _appsdir /usr/X11R6/share/ROX-apps
 %define _name ROX-Tasklist
 %define _platform %(echo `uname -s`-`uname -m|sed 's/i.86/ix86/'`)
 Summary:	Simple tasklist
 Summary(pl):	Prosta lista zadañ
 Name:		rox-tasklist
 Version:	0.1.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.speakeasy.org/~pngwen/rox/%{name}.tar.gz
@@ -17,6 +16,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
 %define		_mandir		%{_prefix}/man
+%define   _appsdir  %{_libdir}/ROX-apps
 
 %description
 This is a tasklist, much like the one that GNOME has.
