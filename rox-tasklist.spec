@@ -7,8 +7,8 @@ Version:	0.1.0
 Release:	2
 License:	GPL
 Group:		X11/Applications
-Source0:	http://www.speakeasy.org/~pngwen/rox/%{name}.tar.gz
-# Source0-md5:	6fe39f6e477c0bce3a949bbc73898a70
+Source0:	http://metabocks.port5.com/rox/%{name}.tar.gz
+# Source0-md5:	d14e853551be5ab45e7e9b3ae0b80492
 URL:		http://www.metabocks.com/rox
 BuildRequires:	gdk-pixbuf-devel
 BuildRequires:	gtk+-devel
