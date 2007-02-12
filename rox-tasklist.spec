@@ -1,7 +1,7 @@
 %define _name Tasklist
 %define _platform %(echo `uname -s`-`uname -m|sed 's/i.86/ix86/'`)
 Summary:	Simple tasklist
-Summary(pl.UTF-8):   Prosta lista zadań
+Summary(pl.UTF-8):	Prosta lista zadań
 Name:		rox-tasklist
 Version:	0.5
 Release:	1
