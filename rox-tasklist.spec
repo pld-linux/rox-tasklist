@@ -1,7 +1,7 @@
 %define _name Tasklist
 %define _platform %(echo `uname -s`-`uname -m|sed 's/i.86/ix86/'`)
 Summary:	Simple tasklist
-Summary(pl):	Prosta lista zadañ
+Summary(pl.UTF-8):   Prosta lista zadaÅ„
 Name:		rox-tasklist
 Version:	0.5
 Release:	1
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This is a tasklist, much like the one that GNOME has.
 
-%description -l pl
-Jest to lista zadañ, podobna do tej, jak± posiada GNOME.
+%description -l pl.UTF-8
+Jest to lista zadaÅ„, podobna do tej, jakÄ… posiada GNOME.
 
 %prep
 %setup -q -n %{_name}-%{version}
